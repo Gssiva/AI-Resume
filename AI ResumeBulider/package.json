@@ -1,0 +1,40 @@
+{
+  "name": "AI-Resumebuilder",
+  "version": "1.0.0",
+  "description": "AI-powered resume builder web application built with MERN stack",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm run client-dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "clean:build": "rimraf frontend/build"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "author": "thefarismd",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "html2canvas": "^1.4.1",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^4.2.1",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^24.40.0"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.4"
+  }
+}
