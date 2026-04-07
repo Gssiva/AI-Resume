@@ -14,9 +14,7 @@ An intelligent AI-powered resume builder web application built with the MERN sta
 - [API Endpoints](#api-endpoints)
 - [Dependencies](#dependencies)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Project Description
 
@@ -414,15 +412,6 @@ npm install @svgr/webpack --save-dev
    - Use aggregation pipelines for complex queries
    - Implement connection pooling
 
-### Getting Help
-
-If you encounter issues not covered here:
-
-1. Check the [Issues](https://github.com/your-username/AI-ResumeBuilder/issues) page on GitHub
-2. Search existing issues before creating a new one
-3. Provide detailed error messages and steps to reproduce
-4. Include your system information (OS, Node.js version, etc.)
-
 ## Contributing
 
 We welcome contributions to AI ResumeBuilder! Here's how you can contribute:
@@ -500,42 +489,3 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 - ✅ Private use
 - ❌ Liability
 - ❌ Warranty
-
-## Contact
-
-### Project Maintainer
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@your-username](https://github.com/your-username)
-
-### Support
-
-For questions and support:
-
-- 📧 Email: support@ai-resumebuilder.com
-- 💬 Discord: [Join our community](https://discord.gg/your-invite)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/AI-ResumeBuilder/issues)
-- 📖 Documentation: [Project Wiki](https://github.com/your-username/AI-ResumeBuilder/wiki)
-
-### Social Media
-
-- 🐦 Twitter: [@AIResumebuilder](https://twitter.com/AIResumebuilder)
-- 📸 Instagram: [@ai_resumebuilder](https://instagram.com/ai_resumebuilder)
-- 💼 LinkedIn: [AI ResumeBuilder](https://linkedin.com/company/ai-resumebuilder)
-
----
-
-## 🙏 Acknowledgments
-
-- [React](https://reactjs.org/) - The web framework used
-- [Bootstrap](https://getbootstrap.com/) - UI framework
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express.js](https://expressjs.com/) - Backend framework
-- [OpenAI](https://openai.com/) - AI powering features
-
-## 📊 Project Stats
-
-- **Version**: 1.0.0
-- **Last Updated**: 2024
-- **Contributors**: [Contributors list](https://github.com/your-username/AI-ResumeBuilder/graphs/contributors)
-- **Stars**: [⭐ Star this repo](https://github.com/your-username/AI-ResumeBuilder)
